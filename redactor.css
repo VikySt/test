@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'Magnolia-Script';
+	src: url('../fonts/magnolia-script.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/magnolia-script.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/magnolia-script.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/magnolia-script.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/magnolia-script.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/magnolia-script.svg#magnolia-script') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Muller ExtraBold DEMO';
+	src: url('../fonts/muller_extrabold_demo.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/muller_extrabold_demo.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/muller_extrabold_demo.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/muller_extrabold_demo.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/muller_extrabold_demo.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/muller_extrabold_demo.svg#muller_extrabold_demo') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Appetite';
+	src: url('../fonts/appetite.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/appetite.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/appetite.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/appetite.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/appetite.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/appetite.svg#appetite') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    background-color: rgba(248, 198, 225, 0.6);
+    font-family: 'Magnolia-Script', sans-serif;
+    margin: 50px;
+    border: thick double rgb(247, 5, 85);
+}
+
+h1 {
+    color: rgb(3, 7, 231);
+    font-family: 'Appetite', sans-serif;
+}
+
+h2 {
+    color: rgb(120, 0, 233);
+    font-family: 'Muller ExtraBold DEMO', sans-serif;
+}
+
+h3 {
+    color: rgb(5, 172, 223);
+    font-family: 'Muller ExtraBold DEMO', sans-serif;
+}
+.bib_text {
+    font-size: 20px;
+}
+
+.lng_text {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: lower-greek;
+}
